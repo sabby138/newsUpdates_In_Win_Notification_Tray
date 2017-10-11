@@ -47,7 +47,7 @@ public class getWebServiceInformation {
 			tray.add(trayIcon);
 			
 			String output;
-			System.out.println("Output from Server .... \n");
+			System.out.println("Output from Server ..... \n");
 			if (SystemTray.isSupported()) {
 				while ((output = br.readLine()) != null) {
 					System.out.println(output);
